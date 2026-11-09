@@ -13,7 +13,7 @@ We’re a team of four master’s students at **Leiden University** who enjoy tu
       <strong>Sunil</strong><br>MSc Artificial Intelligence
     </td>
     <td align="center" width="50%">
-      <em>Photo coming soon</em><br><br>
+      <img src="https://raw.githubusercontent.com/Coke-and-Code-Dev/.github/main/profile/smriti.jpeg" alt="Smriti" width="240"><br>
       <strong>Smriti</strong><br>MSc Artificial Intelligence
     </td>
   </tr>
