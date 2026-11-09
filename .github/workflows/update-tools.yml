@@ -1,0 +1,38 @@
+name: Update tools row
+
+# Rebuilds the "Tools we reach for" icons in profile/README.md from the
+# languages and dependencies used across the organisation's public repos.
+on:
+  schedule:
+    - cron: "17 6 * * *" # daily, 06:17 UTC
+  workflow_dispatch: # run it by hand from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-tools
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Detect tools and update README
+        run: node .github/scripts/update-tools.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit if anything changed
+        run: |
+          if git diff --quiet -- profile/README.md; then
+            echo "Tools row already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/README.md
+          git commit -m "Update tools row from org repos"
+          git push

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 40" width="1200" height="40" role="img" aria-label="divider">
+  <defs>
+    <linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#E8121B" stop-opacity="0"/><stop offset="1" stop-color="#E8121B"/></linearGradient><linearGradient id="r" x1="0" x2="1"><stop offset="0" stop-color="#E8121B"/><stop offset="1" stop-color="#E8121B" stop-opacity="0"/></linearGradient>
+    <style>
+      .f { fill: #E8121B; animation: fizz 2.4s ease-in-out infinite; }
+      @keyframes fizz { 0%,100% { transform: translateY(0); opacity: .35; } 50% { transform: translateY(-6px); opacity: 1; } }
+    </style>
+  </defs>
+  <rect x="0" y="19" width="540" height="2" rx="1" fill="url(#l)"/>
+  <rect x="660" y="19" width="540" height="2" rx="1" fill="url(#r)"/>
+  <circle class="f" cx="576" cy="22" r="5"/>
+  <circle class="f" cx="600" cy="22" r="7" style="animation-delay:.3s"/>
+  <circle class="f" cx="624" cy="22" r="5" style="animation-delay:.6s"/>
+</svg>
