@@ -19,7 +19,7 @@ We’re a team of four master’s students at **Leiden University** who enjoy tu
   </tr>
   <tr>
     <td align="center" width="50%">
-      <em>Photo coming soon</em><br><br>
+      <img src="https://raw.githubusercontent.com/Coke-and-Code-Dev/.github/main/profile/joshua.jpeg" alt="Joshua" width="240"><br>
       <strong>Joshua</strong><br>MSc Artificial Intelligence
     </td>
     <td align="center" width="50%">
