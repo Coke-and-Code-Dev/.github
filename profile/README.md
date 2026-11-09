@@ -23,7 +23,7 @@ We’re a team of four master’s students at **Leiden University** who enjoy tu
       <strong>Joshua</strong><br>MSc Artificial Intelligence
     </td>
     <td align="center" width="50%">
-      <em>Photo coming soon</em><br><br>
+      <img src="https://raw.githubusercontent.com/Coke-and-Code-Dev/.github/main/profile/oindrilla.jpeg" alt="Oindrilla" width="240"><br>
       <strong>Oindrilla</strong><br>MSc Data Science
     </td>
   </tr>
