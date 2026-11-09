@@ -2,7 +2,7 @@
 
 ### Four Leiden University master’s students, one shared love of building.
 
-We’re a team of four master’s students at **Leiden University** who enjoy turning ideas into working projects. Three of us study Artificial Intelligence, and Oindrilla studies Data Science. We collaborate across AI, data science and software development, learning together as we build.
+We’re a team of four master’s students at **Leiden University** who enjoy turning ideas into working projects. We collaborate across AI, data science and software development, learning together as we build.
 
 ## Meet the team
 
