@@ -9,7 +9,7 @@ We’re a team of four master’s students at **Leiden University** who enjoy tu
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="https://raw.githubusercontent.com/Coke-and-Code-Dev/.github/main/profile/sunil.jpg" alt="Sunil" width="240"><br>
+      <img src="https://raw.githubusercontent.com/Coke-and-Code-Dev/.github/main/profile/sunil-portrait.jpg" alt="Sunil" width="240"><br>
       <strong>Sunil</strong><br>MSc Artificial Intelligence
     </td>
     <td align="center" width="50%">
